@@ -15,6 +15,7 @@ vimtutor
 ## 移动光标
 
 ```Shell
+# n|: 快速移动到当前行的第n 列
 # hjkl
 # 2w 向前移动两个单词
 # 3e 向前移动到第 3 个单词的末尾
@@ -85,7 +86,8 @@ vimtutor
 ![vim_search](resources/vim_search.gif)
 
 > 以上示例执行顺序为: fo;;,to;,,f,dt.(dt. 用于删除从, 到 . 范围内的内容)
-```S##h##ell
+
+```Shell
 # f{char}: 正向查找到字符所在位置
 # F{char}: 反向查找到字符所在位置
 # t{char}: 正向查找到字符所在位置的下一个字符上
